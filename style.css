@@ -1,0 +1,20 @@
+/** breakpoint for medium is 768 **/
+@media(min-width: 768px){
+    .news-input{
+        width:50%;
+    }
+}
+
+/** basically makes like a ghost block of 60 pixels so nav bar doesnt 
+block image on the top of the webpage **/
+body::before{
+    display:block;
+    content: '';
+    height: 60px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
